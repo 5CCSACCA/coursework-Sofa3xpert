@@ -19,3 +19,7 @@ Transfer any custom or newest weights in this folder
 ## main.py 
 
 Responsible for FastAPI setup, including '/status', '/version', '/predict'.
+
+## Dockerfile 
+
+First version of model ready for deployment
