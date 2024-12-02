@@ -1,1 +1,21 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pa_hoUiU)
+# YOLO setup
+
+This project allows you to run a YOLOv5 model for image classification.
+
+Do the following in terminal:
+    
+install required dependencies
+
+    pip install -r requirements.txt
+
+Launch the script by:
+
+    python classification.py path/to/image.jpg
+    
+## Weights folder
+
+Transfer any custom or newest weights in this folder
+
+## main.py 
+
+Responsible for FastAPI setup, including '/status', '/version', '/predict'.
