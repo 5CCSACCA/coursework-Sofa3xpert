@@ -23,3 +23,7 @@ Responsible for FastAPI setup, including '/status', '/version', '/predict'.
 ## Dockerfile 
 
 First version of model ready for deployment
+
+## index.html 
+
+Basic version of front-end 
