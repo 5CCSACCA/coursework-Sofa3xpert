@@ -1,19 +1,36 @@
-# YOLO setup
+# YOLO Service
 
-This project allows you to run a YOLOv5 model for image classification.
+YOLO Service is a FastAPI-based microservice that performs image classification using the YOLOv5 model. It also logs metrics to MLFlow and MongoDB for further analysis.
 
-Do the following in terminal:
-    
-install required dependencies
+## Features
 
-    pip install -r requirements.txt
+- Predict classes and confidence scores for objects in an image.
+- Log prediction metrics to MongoDB and MLFlow.
 
-Launch the script by:
+## Requirements
 
-    python classification.py path/to/image.jpg
-    
-## Weights folder
+- Docker
+- MongoDB
+- MLFlow
 
-Transfer any custom or newest weights in this folder
+## Endpoints
 
-## 
+### `/predict` (POST)
+- **Description:** Accepts an image file and returns predictions.
+- **Request:**
+  ```bash
+  curl -X POST "http://localhost:8000/predict" \
+       -H "Content-Type: multipart/form-data" \
+       -F "file=@path/to/image.jpg"
+  
+### `/status` (GET)
+- **Description:** Health check endpoint to verify if the service is running.
+- **Request:**
+  ```bash
+  curl -X GET "http://localhost:8000/status"
+  
+### `/version` (GET)
+- **Description:**  Returns the service name and version.
+- **Request:**
+  ```bash
+  curl -X GET "http://localhost:8000/version"
