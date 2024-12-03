@@ -1,38 +1,28 @@
-# YOLO setup
+# MLFlow Service
 
-This project allows you to run a YOLOv5 model for image classification.
+MLFlow Service is a FastAPI-based microservice that handles logging and tracking of metrics and parameters for experiments.
 
-## Weights folder
+## Features
 
-    yolov5s.pt # old or 'big' weigths
+- Log metrics and parameters for machine learning experiments.
+- Expose metrics via the MLFlow UI.
 
-Added new version of weights for more efficient performance and time execution
-    
-    yolov5n.pt #smaller version
-Transfer any custom or newest weights in this folder
+## Requirements
 
-## main.py 
+- Docker
+- MongoDB (optional)
 
-Responsible for FastAPI setup, including '/status', '/version', '/predict'.
-Includes MLFlow integration
+## Endpoints
 
-## MLFLow integration
-Before running MLFLow, uncomment related parts of the code
-To run MLFLow in terminal do:
-
-    mlflow ui
-
-Then in another window type, to reload the page and proceed to the url
-
-    uvicorn main:app --reload
-
-## config.yaml
-
-Added .yaml file for robust and flexible connection between MLFlow and FastAPI
-
-## cat.jpeg 
-
-Testing image
-
-##
-
+### `/log_metrics` (POST)
+- **Description:** Logs metrics to MLFlow.
+- **Request:**
+  ```bash
+  curl -X POST "http://localhost:8001/log_metrics" \
+       -H "Content-Type: application/json" \
+       -d '{
+             "weights": "yolov5s.pt",
+             "confidence_threshold": 0.5,
+             "num_classes_predicted": 3,
+             "avg_confidence": 0.87
+           }'
