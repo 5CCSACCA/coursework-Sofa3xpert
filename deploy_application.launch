@@ -1,6 +1,6 @@
 #!/bin/bash
 
-<!-- Ensure the script stops on the first error -->
+
 set -e
 
 echo "Starting deployment process for AI SaaS application..."
@@ -25,7 +25,7 @@ else
     echo "Docker already installed."
 fi
 
-<!-- Add current user to Docker group to avoid sudo (you may need to re-login for this to take effect) -->
+
 sudo usermod -aG docker $USER
 
 <!-- Install kubectl -->
@@ -37,7 +37,7 @@ else
     echo "kubectl already installed."
 fi
 
-<!-- Install Minikube -->
+
 if ! command -v minikube &> /dev/null; then
     echo "Installing Minikube..."
     curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
@@ -46,55 +46,54 @@ else
     echo "Minikube already installed."
 fi
 
-<!-- Step 2: Start Minikube  -->
+
 echo "Starting Minikube..."
 minikube start --cpus=4 --memory=8g --driver=none
 
-<!-- Step 3: Build Docker Images  -->
+
 echo "Building Docker images for yolo-service and mlflow-service..."
 eval $(minikube -p minikube docker-env) # Point Docker CLI to Minikube's Docker daemon
 
-<!-- Build YOLO Service -->
+
 docker build -t yolo-service:latest ./yolo-service
 
-<!-- Build MLFlow Service -->
+
 docker build -t mlflow-service:latest ./mlflow-service
 
-<!-- Step 4: Deploy Kubernetes Resources  -->
+
 echo "Deploying Kubernetes resources..."
 
-<!-- Apply Namespace -->
+
 kubectl apply -f ./k8s/namespace.yaml
 
-<!-- Deploy MongoDB -->
+
 kubectl apply -f ./k8s/mongodb/mongodb-statefulset.yaml
 kubectl apply -f ./k8s/mongodb/mongodb-service.yaml
 
-<!-- Deploy MLFlow Service -->
+
 kubectl apply -f ./k8s/mlflow/mlflow-deployment.yaml
 kubectl apply -f ./k8s/mlflow/mlflow-service.yaml
 
-<!-- Deploy YOLO Service -->
 kubectl apply -f ./k8s/yolo/yolo-deployment.yaml
 kubectl apply -f ./k8s/yolo/yolo-service.yaml
 
-<!-- Deploy Ingress (Optional) -->
+
 kubectl apply -f ./k8s/ingress/ingress.yaml || echo "Ingress not configured. Skipping."
 
-<!-- Step 5: Verify Deployment  -->
+
 echo "Verifying deployment..."
 
-<!-- Wait for all pods to be running -->
+
 kubectl wait --for=condition=ready pod --all -n ai-saas --timeout=300s
 
-<!-- List all resources -->
+
 kubectl get all -n ai-saas
 
-<!-- Retrieve Minikube IP for testing -->
+
 MINIKUBE_IP=$(minikube ip)
 echo "Minikube is running at $MINIKUBE_IP"
 
-<!-- Step 6: Display Service Endpoints  -->
+
 echo "Application deployed successfully!"
 echo "YOLO Service: http://$MINIKUBE_IP:8000"
 echo "MLFlow Service: http://$MINIKUBE_IP:8001"
