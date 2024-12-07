@@ -13,7 +13,9 @@ sudo apt-get update && sudo apt-get install -y \
     apt-transport-https \
     ca-certificates \
     software-properties-common \
-    iptables
+    iptables \
+    docker-compose
+    
 
 echo "Properties installed"
 if ! command -v docker &> /dev/null; then
@@ -67,7 +69,7 @@ minikube start --cpus=3 --memory=15g --driver=docker
 echo "Building Docker images for yolo-service and mlflow-service..."
 eval $(minikube -p minikube docker-env)
 
-
+#docker-compose build
 docker build -t yolo-service:latest ./yolo-service
 if docker images | grep -q "yolo.*latest"; then
 	echo "Yolo Positive"
@@ -93,14 +95,11 @@ kubectl apply -f ./k8s/namespace.yaml
 kubectl apply -f ./k8s/mongodb/mongodb-statefulset.yaml
 kubectl apply -f ./k8s/mongodb/mongodb-service.yaml
 
-
-kubectl apply -f ./k8s/mlflow/mlflow-deployment.yaml
-kubectl apply -f ./k8s/mlflow/mlflow-service.yaml
-
-
 kubectl apply -f ./k8s/yolo/yolo-deployment.yaml
 kubectl apply -f ./k8s/yolo/yolo-service.yaml
 
+kubectl apply -f ./k8s/mlflow/mlflow-deployment.yaml
+kubectl apply -f ./k8s/mlflow/mlflow-service.yaml
 
 kubectl apply -f ./k8s/ingress/ingress.yaml || echo "Ingress not configured. Skipping."
 
