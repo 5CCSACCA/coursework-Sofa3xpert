@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605/"
+     xml:base="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Cast&amp;Crew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Awards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Awards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Box_Office -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Box_Office">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Production_Info"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Character">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Composer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Composer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Cast&amp;Crew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Cast&amp;Crew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Editor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Editor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Cast&amp;Crew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Production_Info"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Profile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Series -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Series">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Status">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Popularity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Popularity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Production_Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Production_Company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Production_Info"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Production_Info -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Production_Info">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Rank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Rank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film_Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Writer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Writer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Cast&amp;Crew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Cast&amp;Crew -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Cast&amp;Crew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/k22038605/ontologies/2025/1/CW1_k22038605#Film"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
