@@ -70,7 +70,19 @@
         <Class IRI="http://webprotege.stanford.edu/RurEGHHZzQ7nmsPbQkUs8l"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#FemaleCharacterPlayedByMan"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomComLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Writer-Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depictedComposer"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://webprotege.stanford.edu/R3kwWtza30HOr8TJjaXlM8"/>
@@ -143,6 +155,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://webprotege.stanford.edu/R9cbaJO4rXaQsjpDwbE66Rp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGender"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#releaseDateUSA"/>
@@ -586,6 +601,9 @@
         <NamedIndividual IRI="#North_America"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Romance"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Rupert_Graves"/>
     </Declaration>
     <Declaration>
@@ -636,6 +654,70 @@
     <Declaration>
         <AnnotationProperty IRI="http://webprotege.stanford.edu/RtWBrjvyYhcmkx5wIbCo0r"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://webprotege.stanford.edu/RBZ5OTXAqEDitLvCu4309xz"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RB4AgP4e1W99TymN5rlLE54"/>
+            <Class IRI="http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FemaleCharacterPlayedByMan"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://webprotege.stanford.edu/RXPln11qqml2pglfMGIje4"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://webprotege.stanford.edu/R9FwxCjEmI1COnm7E6Qyt0S"/>
+                <DataHasValue>
+                    <DataProperty IRI="#hasGender"/>
+                    <Literal>Male</Literal>
+                </DataHasValue>
+            </ObjectSomeValuesFrom>
+            <DataHasValue>
+                <DataProperty IRI="#hasGender"/>
+                <Literal>Female</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RomComLocation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://webprotege.stanford.edu/RurEGHHZzQ7nmsPbQkUs8l"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="http://webprotege.stanford.edu/R90G7I3fyGnByDRKLVh7pgK"/>
+                    <NamedIndividual IRI="http://webprotege.stanford.edu/RBQVLDTY3wDPOcd6yI2a4YT"/>
+                </ObjectHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="http://webprotege.stanford.edu/R90G7I3fyGnByDRKLVh7pgK"/>
+                    <NamedIndividual IRI="#Romance"/>
+                </ObjectHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Writer-Director"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasDirected"/>
+                <Class IRI="http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasWritten"/>
+                <Class IRI="http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#depictedComposer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://webprotege.stanford.edu/RBRDuE77bCWMeEVKPLWMuNg"/>
+            <Class IRI="http://webprotege.stanford.edu/RXPln11qqml2pglfMGIje4"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/R3lMVP1Sf4gQOvzmc47CEu"/>
         <Class IRI="http://webprotege.stanford.edu/RCtHGdMHn1ZploYVryMlBVk"/>
@@ -671,13 +753,6 @@
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RBZ5OTXAqEDitLvCu4309xz"/>
         <Class IRI="http://webprotege.stanford.edu/RBXwSLX7XqvN8yV8yU8e1I0"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://webprotege.stanford.edu/RBZ5OTXAqEDitLvCu4309xz"/>
-        <ObjectExactCardinality cardinality="3">
-            <ObjectProperty IRI="http://webprotege.stanford.edu/RB4AgP4e1W99TymN5rlLE54"/>
-            <Class IRI="http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl"/>
-        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RCtHGdMHn1ZploYVryMlBVk"/>
@@ -716,8 +791,24 @@
         <Class IRI="http://webprotege.stanford.edu/RCtHGdMHn1ZploYVryMlBVk"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#FemaleCharacterPlayedByMan"/>
+        <Class IRI="http://webprotege.stanford.edu/RXPln11qqml2pglfMGIje4"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Region"/>
         <Class IRI="http://webprotege.stanford.edu/RurEGHHZzQ7nmsPbQkUs8l"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomComLocation"/>
+        <Class IRI="http://webprotege.stanford.edu/RurEGHHZzQ7nmsPbQkUs8l"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Writer-Director"/>
+        <Class IRI="http://webprotege.stanford.edu/RGD6Xy5LhO4P0pnYHQXErQ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depictedComposer"/>
+        <Class IRI="http://webprotege.stanford.edu/RBRDuE77bCWMeEVKPLWMuNg"/>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="http://webprotege.stanford.edu/R3lMVP1Sf4gQOvzmc47CEu"/>
@@ -1310,6 +1401,10 @@
     <ClassAssertion>
         <Class IRI="#Region"/>
         <NamedIndividual IRI="#North_America"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <NamedIndividual IRI="#Romance"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://webprotege.stanford.edu/RBAL2MfmCqrV4UUezchFEJC"/>
@@ -3114,6 +3209,10 @@
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="http://webprotege.stanford.edu/R9cbaJO4rXaQsjpDwbE66Rp"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasGender"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
