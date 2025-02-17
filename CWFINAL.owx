@@ -1,0 +1,4482 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:webprotege:ontology:k22038605"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:webprotege:ontology:k22038605">
+    <Prefix name="" IRI="urn:webprotege:ontology:d4e12681-004a-4df0-b721-8760e647b5f8#"/>
+    <Prefix name="g" IRI="urn:webprotege:ontology:k22038605/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#FemaleCharacterPlayedByMan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R3lMVP1Sf4gQOvzmc47CEu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R8r88bWpGTR0mNQBzMiJytO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R9oV2Q8PgqmIMtzvXYwyhJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RBXwSLX7XqvN8yV8yU8e1I0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RBZ5OTXAqEDitLvCu4309xz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RCtHGdMHn1ZploYVryMlBVk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RCuPC32Pxvd4LpXXm2YA23g"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RDQLomDJJqDDHo5y5Tvi3H6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RDXHFseLnF0Y78YsvPjnfPe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomComLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Writer-Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depictedComposer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Film"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasActor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasAwards"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasBoxOffice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasCharacter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasComposer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasDirected"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasDirector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasEditor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasFilmSeries"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasRank"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasReleaseDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasWriter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasWritten"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isPartOfTrilogy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/playedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/wasBornIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/wonAward"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasBoxOffice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasGender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasRank"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/releaseDateUSA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Denmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Martin_Freeman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Middle_East"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#North_America"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R0U91uxJ4yvySynxbtrT7v"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R1ysw2uQ8jQVTexe3eZQQ1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R4pI8js9eYCfL3aUI7hwW1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R6RK3n46lk7FDPfPxO5VgT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7IsnOdWRDPZAUZERxlGsEw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7MmiIyRLAyDQ4zWJV9AOVn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7PUyGEMuT6C3KMdTYKc52G"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7PXQ5c63cYvbMWuyeeCqyt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7Qh8K1tlxNmBXKeho6IjuJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7UuVQZZEzSlhG01riIl7ib"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7aiTJm4ZtIl1geBNPdwESH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7dkv75nPg7a81dIS72Io0K"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7dw4eM9cJK8LHsM84p4OLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7j98AxNuwSK5IUt9jnajkM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7s7WUqHus1M6Zcn55LDC4D"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7sc7Z2ORl0OZR450McOXBx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7zphG7sw2LAHCaUvGgLwfI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R80FCZb0ZlBA4kaVmQZjwUe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8417KHXAQOPdHxmsstKW4J"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R852EgFgOAraqZcDKwTgy23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R87YhLd63pZi1afGaJxE8nz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8C6BOdiXzHCz5m3JjQqr9C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8CK7md9vkESlDRw7doaNtR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8DFzrnz44bTH7xbKscc9pZ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8P9Z9VPW6zlbprxJl5NZt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8R9l5bKS7tuXR28IlpVTHR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8SjIHL9yLfJBAlyhzqHus6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8UKX8ScRXuTnZSmm2rfLl2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8cf09lHkbK5USXupzZyRrs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8eMLxKaflvBVEKzx9Zpsgi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8iIWHrgHEdyjdaahf4ZZt6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8q6ALzaBib8swbfgv1FECA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8uH6dDHIszkOp1ult9sgcu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8zBlKAcQWC68DV7zBr1R3L"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R90RpkMmFsRvvoWsNznlGBI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R97ERY8FryRIB1FnYcleHYT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9BX4gCjDBjBo6TwqOgLwMC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9C3IVDUVogGo6Q8xwYFYmL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9FB0VtGNsjtsZfUdq1e7bI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9IyFyH9NRklxyQdP3oxQaM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9MvsUItle0IcUHy2Wbh5ft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9OhVvCDGazGlSBtY8zdFL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9Qyp3Hy95uUgZ9CLX4z8DG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9VzHbKhFltgy6X1H213Bu4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9ZF5U85EdJG5XbNbftCO25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9ekO7qMf734VFVFXSIe7XU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9mAXaE4gTdoYlehpPNj1Rl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RB0iyFKlyV9OWc264JUUALP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RB6c0xNK1jodwN3A0z0c2dl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RB80nQV8UxSNAzzL4zLQIR2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RB9PyHpALE3PHz7bg5iPFnV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RB9mhb7F1EOR5z1HZ67U8m0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBDkGNsFGYJQLvFMQON4xPC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBEAYy3WxC0ipXOkiMXI2Da"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBGTCJv1Vc723yuco5xUVVe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBJR80GRmC6BukmYFoWLhtj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBKOySvARBpkZFrWcArXJzF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBMBemeJsNcAwjBWuhTV3uR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBQVLDTY3wDPOcd6yI2a4YT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBRolI0YZL4OKM3ThiR79o5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBW8xYl9LeABVkf8gdjsx1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBbxDRcA8vqO8rqVagtHZeQ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBcMFbZblyEMuESHg2sgLm7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBhLxUvmUOTvTIhIoysnHxd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBjU6mZxEzjvwECezOTaVtw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBluvckuSxmg8tMrKX3iMjz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBnEWuVdKYV7iaAmybwJzWe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBpadoYmxPdQBESdX1N9OWZ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBxH4dX1zvDwFfODhTNq23t"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RBzWHvpX0TR2wfscKHO21zR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RC045fue991DK1Mvozcmqne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RC4FmjdY46xsLy2ssvEHZBK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RC6Z8M0S6YeDqOsbW5sSpuE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCBsC8Gx99qg89IXLr0mlXe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCF8x4SnaZ1p8S99cfFxAj9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCLVpaM9TfeAsAd6OQfagO2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCOSwEfU8EsKESVa0MbNhFH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCRvJv8p5OcDJ75TF6p6ntR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCbb346fkUkqUR6bgnsnUNH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCfYdVYe1lCbZXFHJND6VxU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCjnh5lLYGIvoE2vtojCEXm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RClkXIwaC50n6Ol5qSvm4xV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCqesXXXzxXsk0PFg9bI0d7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCuqcyKeIJeXQVtRQs5fHt8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCwuwVeM5KEGvUYnY4zekSJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCxfTdl7YWjfugjZrha4NdV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RCzmjFtbcH7jNwNGvHAsupJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDAg5bjxI3kO7BcFmABrz37"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDEL3nrVMmuHScep21pgSoh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDKTmHQBzTlGduLkTRr2uo3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDMrEJzvCNiPU5Ng9eV9MqQ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDT43hqGMlSr3F2wboEBBBm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDYhT6IW1WfVsvnWdS9sTS5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDgTEeu3dwrFxBT4bOYaTx3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDhKBMwOvcgpkVJ0YztnlWI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDpr4zjPE5JA0TNzkv0kbln"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDrRqUkOzVXfw3CY1exe497"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RDt5ybrt7tomwqP7zG97CVm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RI0x9zCySWYvCftqY6cyW5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RJreBqPMNjMIDXbkEgIbkw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RKT5LPG9iM8IkrD1CXUW4T"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RLg05DubD5DBt6VD1zZTZ9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RQ503siedcFC8k2TjDyrWl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR1epwnd6pykVWULK5RICQ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RRRBmuz7oir3o3KjJMl9f1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RRyls1A1DazQkE389oqy6u"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RSe5CMeiOrNH9Le2VnZlFO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RVJr9WeXvfl2LSiTATaocz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RVVJ2u2vT8NNiDhG9CvnwE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RW4hLUJSBaSA5JgoBtZv9W"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RX13ZBbS8BJECB9pe83YtL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RYoVWWw1ogNUXV7WtIwjN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RZtgrmmCPAiv04YeR1KwvR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ra1kkRHfBqAXWVoRJ3NHqV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ra56ajaeuWmc2BK8uBNvqP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RhY1ijwtyNlWcL9PzHTerK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RjZYEIpAw5aRJmGsmz3o09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RkYtvSiHC3yRW35otRigFR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RmuBAdeJyI08cWm0gL0U5Z"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rqage33ZqL1wdaIN7C6Rkj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RqcFUNJ0OFfe2EVtItVi9q"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rupert_Graves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rv38MpUfDyH4o39LoHGghF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RyJiq91VbQnZ52937kUyVq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RzNvg92nqazazv6pKLTryp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SouthAfrica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#South_America"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USSR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Una_Stubbs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#R90iiQEZh2cmXLvMEi9q2LR"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#R9QYNDxhEirdMJGvWkwCZui"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RBbcgRAY1MRl5Pl6XeVFYPb"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RBcQLTUVb1QWQ5x4Mdoe5Ud"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RCRmcf5Ho6A97XkYy1ESsvH"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RCguayZgkczIXiJtyP50bVU"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RCw8FmtDQsjdN5fpp7QHJMt"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RmTtcMoxmTArumftniUDy5"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RtWBrjvyYhcmkx5wIbCo0r"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#FemaleCharacterPlayedByMan"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/playedBy"/>
+                <DataHasValue>
+                    <DataProperty IRI="/hasGender"/>
+                    <Literal>Male</Literal>
+                </DataHasValue>
+            </ObjectSomeValuesFrom>
+            <DataHasValue>
+                <DataProperty IRI="/hasGender"/>
+                <Literal>Female</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RBZ5OTXAqEDitLvCu4309xz"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="/hasPart"/>
+            <Class IRI="/Film"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RomComLocation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+            <ObjectIntersectionOf>
+                <Class IRI="/Film"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="/hasGenre"/>
+                    <NamedIndividual IRI="#RBQVLDTY3wDPOcd6yI2a4YT"/>
+                </ObjectHasValue>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="/Film"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="/hasGenre"/>
+                    <NamedIndividual IRI="#Romance"/>
+                </ObjectHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Writer-Director"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasDirected"/>
+                <Class IRI="/Film"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasWritten"/>
+                <Class IRI="/Film"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#depictedComposer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+            <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#FemaleCharacterPlayedByMan"/>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R3lMVP1Sf4gQOvzmc47CEu"/>
+        <Class IRI="#RCtHGdMHn1ZploYVryMlBVk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <Class IRI="#R9oV2Q8PgqmIMtzvXYwyhJ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R8r88bWpGTR0mNQBzMiJytO"/>
+        <Class IRI="#RCuPC32Pxvd4LpXXm2YA23g"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <Class IRI="/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R9oV2Q8PgqmIMtzvXYwyhJ"/>
+        <Class IRI="/Film"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RBXwSLX7XqvN8yV8yU8e1I0"/>
+        <Class IRI="#R9oV2Q8PgqmIMtzvXYwyhJ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RBZ5OTXAqEDitLvCu4309xz"/>
+        <Class IRI="#RBXwSLX7XqvN8yV8yU8e1I0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RCtHGdMHn1ZploYVryMlBVk"/>
+        <Class IRI="/Film"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <Class IRI="/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RCuPC32Pxvd4LpXXm2YA23g"/>
+        <Class IRI="/Film"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RDQLomDJJqDDHo5y5Tvi3H6"/>
+        <Class IRI="#RCtHGdMHn1ZploYVryMlBVk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RDXHFseLnF0Y78YsvPjnfPe"/>
+        <Class IRI="#RCuPC32Pxvd4LpXXm2YA23g"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <Class IRI="#R9oV2Q8PgqmIMtzvXYwyhJ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomComLocation"/>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+        <Class IRI="/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <Class IRI="#RCtHGdMHn1ZploYVryMlBVk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Writer-Director"/>
+        <Class IRI="/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depictedComposer"/>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30"/>
+        <Class IRI="/Film"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <Class IRI="/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <Class IRI="/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Africa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Asia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#Denmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#Martin_Freeman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Middle_East"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#North_America"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R3lMVP1Sf4gQOvzmc47CEu"/>
+        <NamedIndividual IRI="#R0U91uxJ4yvySynxbtrT7v"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R1ysw2uQ8jQVTexe3eZQQ1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#R4pI8js9eYCfL3aUI7hwW1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+        <NamedIndividual IRI="#R6RK3n46lk7FDPfPxO5VgT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <NamedIndividual IRI="#R7IsnOdWRDPZAUZERxlGsEw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#R7MmiIyRLAyDQ4zWJV9AOVn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R3lMVP1Sf4gQOvzmc47CEu"/>
+        <NamedIndividual IRI="#R7PUyGEMuT6C3KMdTYKc52G"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R7PXQ5c63cYvbMWuyeeCqyt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#R7Qh8K1tlxNmBXKeho6IjuJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#R7UuVQZZEzSlhG01riIl7ib"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RBZ5OTXAqEDitLvCu4309xz"/>
+        <NamedIndividual IRI="#R7aiTJm4ZtIl1geBNPdwESH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R7dkv75nPg7a81dIS72Io0K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R7dw4eM9cJK8LHsM84p4OLE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R7j98AxNuwSK5IUt9jnajkM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#R7s7WUqHus1M6Zcn55LDC4D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#R7sc7Z2ORl0OZR450McOXBx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#R7zphG7sw2LAHCaUvGgLwfI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <NamedIndividual IRI="#R80FCZb0ZlBA4kaVmQZjwUe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R8417KHXAQOPdHxmsstKW4J"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <NamedIndividual IRI="#R852EgFgOAraqZcDKwTgy23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+        <NamedIndividual IRI="#R87YhLd63pZi1afGaJxE8nz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#R8C6BOdiXzHCz5m3JjQqr9C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R8CK7md9vkESlDRw7doaNtR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R8DFzrnz44bTH7xbKscc9pZ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R8P9Z9VPW6zlbprxJl5NZt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#R8R9l5bKS7tuXR28IlpVTHR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R8SjIHL9yLfJBAlyhzqHus6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#R8UKX8ScRXuTnZSmm2rfLl2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R8cf09lHkbK5USXupzZyRrs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R8eMLxKaflvBVEKzx9Zpsgi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <NamedIndividual IRI="#R8iIWHrgHEdyjdaahf4ZZt6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R8q6ALzaBib8swbfgv1FECA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RBXwSLX7XqvN8yV8yU8e1I0"/>
+        <NamedIndividual IRI="#R8uH6dDHIszkOp1ult9sgcu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R8zBlKAcQWC68DV7zBr1R3L"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R90RpkMmFsRvvoWsNznlGBI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R97ERY8FryRIB1FnYcleHYT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R9BX4gCjDBjBo6TwqOgLwMC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#R9C3IVDUVogGo6Q8xwYFYmL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <NamedIndividual IRI="#R9FB0VtGNsjtsZfUdq1e7bI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RDXHFseLnF0Y78YsvPjnfPe"/>
+        <NamedIndividual IRI="#R9IyFyH9NRklxyQdP3oxQaM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R9MvsUItle0IcUHy2Wbh5ft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#R9OhVvCDGazGlSBtY8zdFL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#R9Qyp3Hy95uUgZ9CLX4z8DG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#R9VzHbKhFltgy6X1H213Bu4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#R9ZF5U85EdJG5XbNbftCO25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#R9ekO7qMf734VFVFXSIe7XU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <NamedIndividual IRI="#R9mAXaE4gTdoYlehpPNj1Rl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RB0iyFKlyV9OWc264JUUALP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RB6c0xNK1jodwN3A0z0c2dl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <NamedIndividual IRI="#RB80nQV8UxSNAzzL4zLQIR2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <NamedIndividual IRI="#RB9PyHpALE3PHz7bg5iPFnV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#RB9mhb7F1EOR5z1HZ67U8m0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RBDkGNsFGYJQLvFMQON4xPC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RBEAYy3WxC0ipXOkiMXI2Da"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RDXHFseLnF0Y78YsvPjnfPe"/>
+        <NamedIndividual IRI="#RBGTCJv1Vc723yuco5xUVVe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#RBJR80GRmC6BukmYFoWLhtj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RBKOySvARBpkZFrWcArXJzF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RDXHFseLnF0Y78YsvPjnfPe"/>
+        <NamedIndividual IRI="#RBMBemeJsNcAwjBWuhTV3uR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <NamedIndividual IRI="#RBQVLDTY3wDPOcd6yI2a4YT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#RBRolI0YZL4OKM3ThiR79o5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RBW8xYl9LeABVkf8gdjsx1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RBbxDRcA8vqO8rqVagtHZeQ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RBXwSLX7XqvN8yV8yU8e1I0"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RBcMFbZblyEMuESHg2sgLm7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#RBhLxUvmUOTvTIhIoysnHxd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RBjU6mZxEzjvwECezOTaVtw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RBluvckuSxmg8tMrKX3iMjz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RBnEWuVdKYV7iaAmybwJzWe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#RBpadoYmxPdQBESdX1N9OWZ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+        <NamedIndividual IRI="#RBxH4dX1zvDwFfODhTNq23t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R3lMVP1Sf4gQOvzmc47CEu"/>
+        <NamedIndividual IRI="#RBzWHvpX0TR2wfscKHO21zR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#RC045fue991DK1Mvozcmqne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RC4FmjdY46xsLy2ssvEHZBK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RC6Z8M0S6YeDqOsbW5sSpuE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#RCBsC8Gx99qg89IXLr0mlXe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RCF8x4SnaZ1p8S99cfFxAj9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RCLVpaM9TfeAsAd6OQfagO2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R3lMVP1Sf4gQOvzmc47CEu"/>
+        <NamedIndividual IRI="#RCOSwEfU8EsKESVa0MbNhFH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#RCRvJv8p5OcDJ75TF6p6ntR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RCbb346fkUkqUR6bgnsnUNH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#RCfYdVYe1lCbZXFHJND6VxU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R3lMVP1Sf4gQOvzmc47CEu"/>
+        <NamedIndividual IRI="#RCjnh5lLYGIvoE2vtojCEXm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#RClkXIwaC50n6Ol5qSvm4xV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <NamedIndividual IRI="#RCqesXXXzxXsk0PFg9bI0d7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RCuqcyKeIJeXQVtRQs5fHt8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <NamedIndividual IRI="#RCwuwVeM5KEGvUYnY4zekSJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RCxfTdl7YWjfugjZrha4NdV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RCzmjFtbcH7jNwNGvHAsupJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RDAg5bjxI3kO7BcFmABrz37"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#RDEL3nrVMmuHScep21pgSoh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RDKTmHQBzTlGduLkTRr2uo3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+        <NamedIndividual IRI="#RDMrEJzvCNiPU5Ng9eV9MqQ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#RDT43hqGMlSr3F2wboEBBBm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <NamedIndividual IRI="#RDYhT6IW1WfVsvnWdS9sTS5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <NamedIndividual IRI="#RDgTEeu3dwrFxBT4bOYaTx3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R3lMVP1Sf4gQOvzmc47CEu"/>
+        <NamedIndividual IRI="#RDhKBMwOvcgpkVJ0YztnlWI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+        <NamedIndividual IRI="#RDpr4zjPE5JA0TNzkv0kbln"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#RDrRqUkOzVXfw3CY1exe497"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#RDt5ybrt7tomwqP7zG97CVm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#RI0x9zCySWYvCftqY6cyW5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+        <NamedIndividual IRI="#RJreBqPMNjMIDXbkEgIbkw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RKT5LPG9iM8IkrD1CXUW4T"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <NamedIndividual IRI="#RLg05DubD5DBt6VD1zZTZ9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#RQ503siedcFC8k2TjDyrWl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RR1epwnd6pykVWULK5RICQ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RRRBmuz7oir3o3KjJMl9f1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#RRyls1A1DazQkE389oqy6u"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RSe5CMeiOrNH9Le2VnZlFO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RDXHFseLnF0Y78YsvPjnfPe"/>
+        <NamedIndividual IRI="#RVJr9WeXvfl2LSiTATaocz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RVVJ2u2vT8NNiDhG9CvnwE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+        <NamedIndividual IRI="#RW4hLUJSBaSA5JgoBtZv9W"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+        <NamedIndividual IRI="#RX13ZBbS8BJECB9pe83YtL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+        <NamedIndividual IRI="#RYoVWWw1ogNUXV7WtIwjN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RZtgrmmCPAiv04YeR1KwvR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#Ra1kkRHfBqAXWVoRJ3NHqV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#Ra1kkRHfBqAXWVoRJ3NHqV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+        <NamedIndividual IRI="#Ra56ajaeuWmc2BK8uBNvqP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RhY1ijwtyNlWcL9PzHTerK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <NamedIndividual IRI="#RjZYEIpAw5aRJmGsmz3o09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+        <NamedIndividual IRI="#RkYtvSiHC3yRW35otRigFR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RmuBAdeJyI08cWm0gL0U5Z"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+        <NamedIndividual IRI="#Romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#Rqage33ZqL1wdaIN7C6Rkj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#RqcFUNJ0OFfe2EVtItVi9q"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#Rupert_Graves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RBXwSLX7XqvN8yV8yU8e1I0"/>
+        <NamedIndividual IRI="#Rv38MpUfDyH4o39LoHGghF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#RyJiq91VbQnZ52937kUyVq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#RzNvg92nqazazv6pKLTryp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#SouthAfrica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#South_America"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+        <NamedIndividual IRI="#USSR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+        <NamedIndividual IRI="#Una_Stubbs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+        <AnonymousIndividual nodeID="_:genid-843e4c46-65e0-4f4b-9582-2ab6e2be42e0"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#Canada"/>
+        <NamedIndividual IRI="#North_America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#Denmark"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#France"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#Germany"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasAwards"/>
+        <NamedIndividual IRI="#Martin_Freeman"/>
+        <NamedIndividual IRI="#RBMBemeJsNcAwjBWuhTV3uR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasAwards"/>
+        <NamedIndividual IRI="#Martin_Freeman"/>
+        <NamedIndividual IRI="#RVJr9WeXvfl2LSiTATaocz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#Martin_Freeman"/>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#Martin_Freeman"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#Martin_Freeman"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R1ysw2uQ8jQVTexe3eZQQ1"/>
+        <NamedIndividual IRI="#RZtgrmmCPAiv04YeR1KwvR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R1ysw2uQ8jQVTexe3eZQQ1"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R1ysw2uQ8jQVTexe3eZQQ1"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirected"/>
+        <NamedIndividual IRI="#R4pI8js9eYCfL3aUI7hwW1"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirected"/>
+        <NamedIndividual IRI="#R7MmiIyRLAyDQ4zWJV9AOVn"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirected"/>
+        <NamedIndividual IRI="#R7MmiIyRLAyDQ4zWJV9AOVn"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R7PXQ5c63cYvbMWuyeeCqyt"/>
+        <NamedIndividual IRI="#RKT5LPG9iM8IkrD1CXUW4T"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R7PXQ5c63cYvbMWuyeeCqyt"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R7PXQ5c63cYvbMWuyeeCqyt"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#R7Qh8K1tlxNmBXKeho6IjuJ"/>
+        <NamedIndividual IRI="#Asia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#R7UuVQZZEzSlhG01riIl7ib"/>
+        <NamedIndividual IRI="#North_America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasPart"/>
+        <NamedIndividual IRI="#R7aiTJm4ZtIl1geBNPdwESH"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasPart"/>
+        <NamedIndividual IRI="#R7aiTJm4ZtIl1geBNPdwESH"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasPart"/>
+        <NamedIndividual IRI="#R7aiTJm4ZtIl1geBNPdwESH"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R7dkv75nPg7a81dIS72Io0K"/>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R7dkv75nPg7a81dIS72Io0K"/>
+        <NamedIndividual IRI="#R7UuVQZZEzSlhG01riIl7ib"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R7dw4eM9cJK8LHsM84p4OLE"/>
+        <NamedIndividual IRI="#RqcFUNJ0OFfe2EVtItVi9q"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R7dw4eM9cJK8LHsM84p4OLE"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R7j98AxNuwSK5IUt9jnajkM"/>
+        <NamedIndividual IRI="#RKT5LPG9iM8IkrD1CXUW4T"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R7j98AxNuwSK5IUt9jnajkM"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R7j98AxNuwSK5IUt9jnajkM"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirected"/>
+        <NamedIndividual IRI="#R7sc7Z2ORl0OZR450McOXBx"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#R8P9Z9VPW6zlbprxJl5NZt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#R9MvsUItle0IcUHy2Wbh5ft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RB6c0xNK1jodwN3A0z0c2dl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RBluvckuSxmg8tMrKX3iMjz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RCF8x4SnaZ1p8S99cfFxAj9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasAwards"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#R9IyFyH9NRklxyQdP3oxQaM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#R8eMLxKaflvBVEKzx9Zpsgi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#R9BX4gCjDBjBo6TwqOgLwMC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#R9C3IVDUVogGo6Q8xwYFYmL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RCzmjFtbcH7jNwNGvHAsupJ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RRRBmuz7oir3o3KjJMl9f1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasComposer"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RCqesXXXzxXsk0PFg9bI0d7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirector"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#R8C6BOdiXzHCz5m3JjQqr9C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasEditor"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RYoVWWw1ogNUXV7WtIwjN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RRyls1A1DazQkE389oqy6u"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#Rqage33ZqL1wdaIN7C6Rkj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#R8iIWHrgHEdyjdaahf4ZZt6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#R9mAXaE4gTdoYlehpPNj1Rl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <NamedIndividual IRI="#RCOSwEfU8EsKESVa0MbNhFH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWritten"/>
+        <NamedIndividual IRI="#R87YhLd63pZi1afGaJxE8nz"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWritten"/>
+        <NamedIndividual IRI="#R87YhLd63pZi1afGaJxE8nz"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWritten"/>
+        <NamedIndividual IRI="#R87YhLd63pZi1afGaJxE8nz"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWritten"/>
+        <NamedIndividual IRI="#R87YhLd63pZi1afGaJxE8nz"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirected"/>
+        <NamedIndividual IRI="#R8C6BOdiXzHCz5m3JjQqr9C"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R8CK7md9vkESlDRw7doaNtR"/>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R8CK7md9vkESlDRw7doaNtR"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#R7j98AxNuwSK5IUt9jnajkM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RCxfTdl7YWjfugjZrha4NdV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RR1epwnd6pykVWULK5RICQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RKT5LPG9iM8IkrD1CXUW4T"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasComposer"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RB9PyHpALE3PHz7bg5iPFnV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirector"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RBpadoYmxPdQBESdX1N9OWZ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasEditor"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RBJR80GRmC6BukmYFoWLhtj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#R7UuVQZZEzSlhG01riIl7ib"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RB80nQV8UxSNAzzL4zLQIR2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RLg05DubD5DBt6VD1zZTZ9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RjZYEIpAw5aRJmGsmz3o09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RBzWHvpX0TR2wfscKHO21zR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#R87YhLd63pZi1afGaJxE8nz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RDMrEJzvCNiPU5Ng9eV9MqQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <NamedIndividual IRI="#RW4hLUJSBaSA5JgoBtZv9W"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R8P9Z9VPW6zlbprxJl5NZt"/>
+        <NamedIndividual IRI="#R9C3IVDUVogGo6Q8xwYFYmL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R8P9Z9VPW6zlbprxJl5NZt"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R8SjIHL9yLfJBAlyhzqHus6"/>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R8SjIHL9yLfJBAlyhzqHus6"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R8SjIHL9yLfJBAlyhzqHus6"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R90RpkMmFsRvvoWsNznlGBI"/>
+        <NamedIndividual IRI="#RC4FmjdY46xsLy2ssvEHZBK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R90RpkMmFsRvvoWsNznlGBI"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R97ERY8FryRIB1FnYcleHYT"/>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R97ERY8FryRIB1FnYcleHYT"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R1ysw2uQ8jQVTexe3eZQQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R7dkv75nPg7a81dIS72Io0K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R97ERY8FryRIB1FnYcleHYT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#RBcMFbZblyEMuESHg2sgLm7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#RBjU6mZxEzjvwECezOTaVtw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasAwards"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R9IyFyH9NRklxyQdP3oxQaM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasAwards"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#RBGTCJv1Vc723yuco5xUVVe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasAwards"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#RBMBemeJsNcAwjBWuhTV3uR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R8417KHXAQOPdHxmsstKW4J"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#RZtgrmmCPAiv04YeR1KwvR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasComposer"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#Ra56ajaeuWmc2BK8uBNvqP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirector"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R7MmiIyRLAyDQ4zWJV9AOVn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasEditor"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R8UKX8ScRXuTnZSmm2rfLl2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmSeries"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#Rv38MpUfDyH4o39LoHGghF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#RDt5ybrt7tomwqP7zG97CVm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R8iIWHrgHEdyjdaahf4ZZt6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R9mAXaE4gTdoYlehpPNj1Rl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#RjZYEIpAw5aRJmGsmz3o09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#R0U91uxJ4yvySynxbtrT7v"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <NamedIndividual IRI="#RX13ZBbS8BJECB9pe83YtL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R9MvsUItle0IcUHy2Wbh5ft"/>
+        <NamedIndividual IRI="#RCzmjFtbcH7jNwNGvHAsupJ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R9MvsUItle0IcUHy2Wbh5ft"/>
+        <NamedIndividual IRI="#R7UuVQZZEzSlhG01riIl7ib"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirected"/>
+        <NamedIndividual IRI="#R9OhVvCDGazGlSBtY8zdFL"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#R9VzHbKhFltgy6X1H213Bu4"/>
+        <NamedIndividual IRI="#RDKTmHQBzTlGduLkTRr2uo3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#R9VzHbKhFltgy6X1H213Bu4"/>
+        <NamedIndividual IRI="#R7UuVQZZEzSlhG01riIl7ib"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#R9ZF5U85EdJG5XbNbftCO25"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RB0iyFKlyV9OWc264JUUALP"/>
+        <NamedIndividual IRI="#RC6Z8M0S6YeDqOsbW5sSpuE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RB0iyFKlyV9OWc264JUUALP"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RB6c0xNK1jodwN3A0z0c2dl"/>
+        <NamedIndividual IRI="#R9BX4gCjDBjBo6TwqOgLwMC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RB6c0xNK1jodwN3A0z0c2dl"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBDkGNsFGYJQLvFMQON4xPC"/>
+        <NamedIndividual IRI="#R9BX4gCjDBjBo6TwqOgLwMC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RBDkGNsFGYJQLvFMQON4xPC"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RBDkGNsFGYJQLvFMQON4xPC"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBEAYy3WxC0ipXOkiMXI2Da"/>
+        <NamedIndividual IRI="#RCbb346fkUkqUR6bgnsnUNH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RBEAYy3WxC0ipXOkiMXI2Da"/>
+        <NamedIndividual IRI="#Denmark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBKOySvARBpkZFrWcArXJzF"/>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RBKOySvARBpkZFrWcArXJzF"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#RBRolI0YZL4OKM3ThiR79o5"/>
+        <NamedIndividual IRI="#South_America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBW8xYl9LeABVkf8gdjsx1"/>
+        <NamedIndividual IRI="#RRRBmuz7oir3o3KjJMl9f1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RBW8xYl9LeABVkf8gdjsx1"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#R8SjIHL9yLfJBAlyhzqHus6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RBKOySvARBpkZFrWcArXJzF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RCLVpaM9TfeAsAd6OQfagO2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RSe5CMeiOrNH9Le2VnZlFO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#R8417KHXAQOPdHxmsstKW4J"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RKT5LPG9iM8IkrD1CXUW4T"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasComposer"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#R80FCZb0ZlBA4kaVmQZjwUe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirector"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#R7sc7Z2ORl0OZR450McOXBx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirector"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RCRvJv8p5OcDJ75TF6p6ntR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmSeries"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#R8uH6dDHIszkOp1ult9sgcu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RCwuwVeM5KEGvUYnY4zekSJ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RLg05DubD5DBt6VD1zZTZ9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RjZYEIpAw5aRJmGsmz3o09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RCjnh5lLYGIvoE2vtojCEXm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#R87YhLd63pZi1afGaJxE8nz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <NamedIndividual IRI="#RDpr4zjPE5JA0TNzkv0kbln"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBcMFbZblyEMuESHg2sgLm7"/>
+        <NamedIndividual IRI="#RDAg5bjxI3kO7BcFmABrz37"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RBcMFbZblyEMuESHg2sgLm7"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#RBhLxUvmUOTvTIhIoysnHxd"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBjU6mZxEzjvwECezOTaVtw"/>
+        <NamedIndividual IRI="#R8417KHXAQOPdHxmsstKW4J"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RBjU6mZxEzjvwECezOTaVtw"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RBluvckuSxmg8tMrKX3iMjz"/>
+        <NamedIndividual IRI="#R8eMLxKaflvBVEKzx9Zpsgi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RBluvckuSxmg8tMrKX3iMjz"/>
+        <NamedIndividual IRI="#R7UuVQZZEzSlhG01riIl7ib"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirected"/>
+        <NamedIndividual IRI="#RBpadoYmxPdQBESdX1N9OWZ"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RCF8x4SnaZ1p8S99cfFxAj9"/>
+        <NamedIndividual IRI="#RRRBmuz7oir3o3KjJMl9f1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RCF8x4SnaZ1p8S99cfFxAj9"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RCLVpaM9TfeAsAd6OQfagO2"/>
+        <NamedIndividual IRI="#RKT5LPG9iM8IkrD1CXUW4T"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RCLVpaM9TfeAsAd6OQfagO2"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RCLVpaM9TfeAsAd6OQfagO2"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#R7dw4eM9cJK8LHsM84p4OLE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RB0iyFKlyV9OWc264JUUALP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RBDkGNsFGYJQLvFMQON4xPC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RBW8xYl9LeABVkf8gdjsx1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RhY1ijwtyNlWcL9PzHTerK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#R9BX4gCjDBjBo6TwqOgLwMC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RC6Z8M0S6YeDqOsbW5sSpuE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RRRBmuz7oir3o3KjJMl9f1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RVVJ2u2vT8NNiDhG9CvnwE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RqcFUNJ0OFfe2EVtItVi9q"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasComposer"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RDYhT6IW1WfVsvnWdS9sTS5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirector"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#R9OhVvCDGazGlSBtY8zdFL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasEditor"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RDT43hqGMlSr3F2wboEBBBm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#R7Qh8K1tlxNmBXKeho6IjuJ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RCfYdVYe1lCbZXFHJND6VxU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#R9mAXaE4gTdoYlehpPNj1Rl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RB80nQV8UxSNAzzL4zLQIR2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#R7PUyGEMuT6C3KMdTYKc52G"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RCOSwEfU8EsKESVa0MbNhFH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#RDhKBMwOvcgpkVJ0YztnlWI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/isPartOfTrilogy"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <NamedIndividual IRI="#R7aiTJm4ZtIl1geBNPdwESH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirected"/>
+        <NamedIndividual IRI="#RCRvJv8p5OcDJ75TF6p6ntR"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#RCfYdVYe1lCbZXFHJND6VxU"/>
+        <NamedIndividual IRI="#Middle_East"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#RClkXIwaC50n6Ol5qSvm4xV"/>
+        <NamedIndividual IRI="#North_America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RCuqcyKeIJeXQVtRQs5fHt8"/>
+        <NamedIndividual IRI="#R8q6ALzaBib8swbfgv1FECA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RCuqcyKeIJeXQVtRQs5fHt8"/>
+        <NamedIndividual IRI="#USSR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RCxfTdl7YWjfugjZrha4NdV"/>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RCxfTdl7YWjfugjZrha4NdV"/>
+        <NamedIndividual IRI="#SouthAfrica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#RDEL3nrVMmuHScep21pgSoh"/>
+        <NamedIndividual IRI="#North_America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#R90RpkMmFsRvvoWsNznlGBI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#R9VzHbKhFltgy6X1H213Bu4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RBDkGNsFGYJQLvFMQON4xPC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RBEAYy3WxC0ipXOkiMXI2Da"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RBW8xYl9LeABVkf8gdjsx1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasAwards"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#R9IyFyH9NRklxyQdP3oxQaM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasAwards"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RVJr9WeXvfl2LSiTATaocz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#R9BX4gCjDBjBo6TwqOgLwMC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RC4FmjdY46xsLy2ssvEHZBK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RCbb346fkUkqUR6bgnsnUNH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RDKTmHQBzTlGduLkTRr2uo3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RRRBmuz7oir3o3KjJMl9f1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasComposer"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#R852EgFgOAraqZcDKwTgy23"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirector"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RkYtvSiHC3yRW35otRigFR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasEditor"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RDT43hqGMlSr3F2wboEBBBm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RBhLxUvmUOTvTIhIoysnHxd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RClkXIwaC50n6Ol5qSvm4xV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#R9mAXaE4gTdoYlehpPNj1Rl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RB80nQV8UxSNAzzL4zLQIR2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#RCOSwEfU8EsKESVa0MbNhFH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/isPartOfTrilogy"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <NamedIndividual IRI="#R7aiTJm4ZtIl1geBNPdwESH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RBDkGNsFGYJQLvFMQON4xPC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RBW8xYl9LeABVkf8gdjsx1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RCuqcyKeIJeXQVtRQs5fHt8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RyJiq91VbQnZ52937kUyVq"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R8DFzrnz44bTH7xbKscc9pZ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R8q6ALzaBib8swbfgv1FECA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R9BX4gCjDBjBo6TwqOgLwMC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RRRBmuz7oir3o3KjJMl9f1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirector"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R4pI8js9eYCfL3aUI7hwW1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasEditor"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R9ekO7qMf734VFVFXSIe7XU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasEditor"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RC045fue991DK1Mvozcmqne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R9ZF5U85EdJG5XbNbftCO25"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RBRolI0YZL4OKM3ThiR79o5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RDEL3nrVMmuHScep21pgSoh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RRyls1A1DazQkE389oqy6u"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R8iIWHrgHEdyjdaahf4ZZt6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R9mAXaE4gTdoYlehpPNj1Rl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RB80nQV8UxSNAzzL4zLQIR2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RjZYEIpAw5aRJmGsmz3o09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R7PUyGEMuT6C3KMdTYKc52G"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RCOSwEfU8EsKESVa0MbNhFH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RDhKBMwOvcgpkVJ0YztnlWI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R6RK3n46lk7FDPfPxO5VgT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RBxH4dX1zvDwFfODhTNq23t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#RJreBqPMNjMIDXbkEgIbkw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/isPartOfTrilogy"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <NamedIndividual IRI="#R7aiTJm4ZtIl1geBNPdwESH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#RDt5ybrt7tomwqP7zG97CVm"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RR1epwnd6pykVWULK5RICQ"/>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RR1epwnd6pykVWULK5RICQ"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#RRyls1A1DazQkE389oqy6u"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RSe5CMeiOrNH9Le2VnZlFO"/>
+        <NamedIndividual IRI="#R8417KHXAQOPdHxmsstKW4J"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RSe5CMeiOrNH9Le2VnZlFO"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R1ysw2uQ8jQVTexe3eZQQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R7PXQ5c63cYvbMWuyeeCqyt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R7dkv75nPg7a81dIS72Io0K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R97ERY8FryRIB1FnYcleHYT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasActor"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#RBjU6mZxEzjvwECezOTaVtw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R0b7eV5g0uQpD0adTRaFfa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R7NyxpPQf7l7BHHw7axBmCQ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R8417KHXAQOPdHxmsstKW4J"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#RKT5LPG9iM8IkrD1CXUW4T"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#RZtgrmmCPAiv04YeR1KwvR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasComposer"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#Ra56ajaeuWmc2BK8uBNvqP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirector"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R7MmiIyRLAyDQ4zWJV9AOVn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasEditor"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R8UKX8ScRXuTnZSmm2rfLl2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmSeries"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#Rv38MpUfDyH4o39LoHGghF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#RDt5ybrt7tomwqP7zG97CVm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R8iIWHrgHEdyjdaahf4ZZt6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R9mAXaE4gTdoYlehpPNj1Rl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasGenre"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#RjZYEIpAw5aRJmGsmz3o09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#R0U91uxJ4yvySynxbtrT7v"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasWriter"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <NamedIndividual IRI="#RX13ZBbS8BJECB9pe83YtL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RhY1ijwtyNlWcL9PzHTerK"/>
+        <NamedIndividual IRI="#RVVJ2u2vT8NNiDhG9CvnwE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RhY1ijwtyNlWcL9PzHTerK"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasDirected"/>
+        <NamedIndividual IRI="#RkYtvSiHC3yRW35otRigFR"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#Rqage33ZqL1wdaIN7C6Rkj"/>
+        <NamedIndividual IRI="#Africa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#Rupert_Graves"/>
+        <NamedIndividual IRI="#RZtgrmmCPAiv04YeR1KwvR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#Rupert_Graves"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#Rupert_Graves"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#RyJiq91VbQnZ52937kUyVq"/>
+        <NamedIndividual IRI="#R8DFzrnz44bTH7xbKscc9pZ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#RyJiq91VbQnZ52937kUyVq"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#RzNvg92nqazazv6pKLTryp"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#SouthAfrica"/>
+        <NamedIndividual IRI="#Africa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#Spain"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#USSR"/>
+        <NamedIndividual IRI="#Asia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/locatedIn"/>
+        <NamedIndividual IRI="#USSR"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <NamedIndividual IRI="#Una_Stubbs"/>
+        <NamedIndividual IRI="#R8417KHXAQOPdHxmsstKW4J"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#Una_Stubbs"/>
+        <NamedIndividual IRI="#R8n7dMHpKOKEdDBF1EsQKXp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <NamedIndividual IRI="#Una_Stubbs"/>
+        <NamedIndividual IRI="#RCnX8KYFJttyY3YawcFFGII"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasBoxOffice"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <Literal>&quot;$185 million&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasRank"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <NamedIndividual IRI="#R7zofJHmyNsspj40kkAQMsy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1977-07-13T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasRank"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <NamedIndividual IRI="#R8NNIPd8f5jcJiWKqpsLrLx"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1939-09-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasBoxOffice"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <Literal>&quot;$525 million&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasRank"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <NamedIndividual IRI="#R98lPD2Sgh4vTY6F1buTgxm"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-25T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasRank"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <NamedIndividual IRI="#RBcEH5GgFZIGwOla8Lskv7X"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1984-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasBoxOffice"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <Literal>&quot;$1.109 billion&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasRank"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <NamedIndividual IRI="#RCNW77d7Lwe0Dqb7ScwffJq"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-09T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasBoxOffice"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <Literal>&quot;$616 million&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasRank"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <NamedIndividual IRI="#RDElMRkRqQZsnVzeWHvZT7Z"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-17T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasBoxOffice"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <Literal>&quot;$589 million&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasRank"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <NamedIndividual IRI="#RDmnS0MJRFqlcoCR17G2X0V"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-14T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasBoxOffice"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <Literal>&quot;$543 million&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/hasRank"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <NamedIndividual IRI="#RSgbcRM9k5eh3T1drM99pr"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasAwards"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasBoxOffice"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasComposer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasDirector"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasEditor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasFilmSeries"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasGenre"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasRank"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasReleaseDate"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasWriter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/playedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/wonAward"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasActor"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasAwards"/>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasAwards"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasAwards"/>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasAwards"/>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasBoxOffice"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasComposer"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasDirector"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasEditor"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasFilmSeries"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasGenre"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasPart"/>
+        <Class IRI="#RBZ5OTXAqEDitLvCu4309xz"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasRank"/>
+        <Class IRI="#RBXwSLX7XqvN8yV8yU8e1I0"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasRank"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasReleaseDate"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasWriter"/>
+        <Class IRI="#RBXwSLX7XqvN8yV8yU8e1I0"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasWriter"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isPartOfTrilogy"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/locatedIn"/>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/playedBy"/>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/wonAward"/>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasActor"/>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasAwards"/>
+        <Class IRI="#RDXHFseLnF0Y78YsvPjnfPe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasCharacter"/>
+        <Class IRI="#RXPln11qqml2pglfMGIje4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasComposer"/>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasDirector"/>
+        <Class IRI="#RCtIVgGvgHtazBzarwjShFh"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasEditor"/>
+        <Class IRI="#R91wRGfGjR4Yau25kzrNoCl"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasFilmSeries"/>
+        <Class IRI="#RBXwSLX7XqvN8yV8yU8e1I0"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasFilmingLocation"/>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasGenre"/>
+        <Class IRI="#R8pJP8UIyAugNl2Iwk9lwhs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasPart"/>
+        <Class IRI="/Film"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasProductionCompany"/>
+        <Class IRI="#R3lMVP1Sf4gQOvzmc47CEu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasReleaseDate"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/releaseDateUSA"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasWriter"/>
+        <Class IRI="#Rt9OjFqOrq9WbVWjxAeQrX"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isPartOfTrilogy"/>
+        <Class IRI="#RBZ5OTXAqEDitLvCu4309xz"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/locatedIn"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/playedBy"/>
+        <Class IRI="/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/wasBornIn"/>
+        <Class IRI="#RurEGHHZzQ7nmsPbQkUs8l"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/wonAward"/>
+        <Class IRI="#RDXHFseLnF0Y78YsvPjnfPe"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/hasGender"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/hasRank"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="/hasBoxOffice"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="/hasRank"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasBoxOffice"/>
+        <Class IRI="/Film"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasRank"/>
+        <Class IRI="/Film"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="/releaseDateUSA"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R0U91uxJ4yvySynxbtrT7v</IRI>
+        <Literal>Warner Bros.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R0b7eV5g0uQpD0adTRaFfa</IRI>
+        <Literal>Dr. John Watson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R1ysw2uQ8jQVTexe3eZQQ1</IRI>
+        <Literal>Eddie Marsan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R3lMVP1Sf4gQOvzmc47CEu</IRI>
+        <Literal>Production_Company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R4pI8js9eYCfL3aUI7hwW1</IRI>
+        <Literal>Marc Forster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R6RK3n46lk7FDPfPxO5VgT</IRI>
+        <Literal>Robert Wade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7IsnOdWRDPZAUZERxlGsEw</IRI>
+        <Literal>Eric Serra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7MmiIyRLAyDQ4zWJV9AOVn</IRI>
+        <Literal>Guy Ritchie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7NyxpPQf7l7BHHw7axBmCQ</IRI>
+        <Literal>Sherlock Holmes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7PUyGEMuT6C3KMdTYKc52G</IRI>
+        <Literal>Columbia Pictures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7PXQ5c63cYvbMWuyeeCqyt</IRI>
+        <Literal>Jared Harris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7Qh8K1tlxNmBXKeho6IjuJ</IRI>
+        <Literal>China</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7UuVQZZEzSlhG01riIl7ib</IRI>
+        <Literal>USA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7aiTJm4ZtIl1geBNPdwESH</IRI>
+        <Literal>James Bond Trilogy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7dkv75nPg7a81dIS72Io0K</IRI>
+        <Literal>Robert Downey Jr.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7dw4eM9cJK8LHsM84p4OLE</IRI>
+        <Literal>Javier Bardem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7j98AxNuwSK5IUt9jnajkM</IRI>
+        <Literal>George Zucco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7s7WUqHus1M6Zcn55LDC4D</IRI>
+        <Literal>Terence Young</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7sc7Z2ORl0OZR450McOXBx</IRI>
+        <Literal>Paul Annett</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7zofJHmyNsspj40kkAQMsy</IRI>
+        <Literal>The_Spy_Who_Loved_Me_(1977)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R9QYNDxhEirdMJGvWkwCZui"/>
+        <IRI>#R7zofJHmyNsspj40kkAQMsy</IRI>
+        <Literal>&quot;John Glen&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBbcgRAY1MRl5Pl6XeVFYPb"/>
+        <IRI>#R7zofJHmyNsspj40kkAQMsy</IRI>
+        <Literal>&quot;$185 million&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBcQLTUVb1QWQ5x4Mdoe5Ud"/>
+        <IRI>#R7zofJHmyNsspj40kkAQMsy</IRI>
+        <Literal>&quot;Lewis Gilbert&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCguayZgkczIXiJtyP50bVU"/>
+        <IRI>#R7zofJHmyNsspj40kkAQMsy</IRI>
+        <Literal>&quot;Action, Adventure&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+        <IRI>#R7zofJHmyNsspj40kkAQMsy</IRI>
+        <Literal>&quot;- James Bond: Roger Moore
+- Anya Amasova: Barbara Bach
+- Karl Stromberg: Curd Jurgens
+- Jaws: Richard Kiel
+- M: Bernard Lee&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCw8FmtDQsjdN5fpp7QHJMt"/>
+        <IRI>#R7zofJHmyNsspj40kkAQMsy</IRI>
+        <Literal>&quot;Marvin Hamlisch&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RtWBrjvyYhcmkx5wIbCo0r"/>
+        <IRI>#R7zofJHmyNsspj40kkAQMsy</IRI>
+        <Literal>&quot;Eon Productions&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R7zphG7sw2LAHCaUvGgLwfI</IRI>
+        <Literal>Steven Moffat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R80FCZb0ZlBA4kaVmQZjwUe</IRI>
+        <Literal>Patrick Gowers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8417KHXAQOPdHxmsstKW4J</IRI>
+        <Literal>Mrs. Hudson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R852EgFgOAraqZcDKwTgy23</IRI>
+        <Literal>David Arnold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R87YhLd63pZi1afGaJxE8nz</IRI>
+        <Literal>Arthur Conan Doyle </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8C6BOdiXzHCz5m3JjQqr9C</IRI>
+        <Literal>Lewis GIlbert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8CK7md9vkESlDRw7doaNtR</IRI>
+        <Literal>Benedict Cumberbatch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8DFzrnz44bTH7xbKscc9pZ</IRI>
+        <Literal>Dominic Greene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8NNIPd8f5jcJiWKqpsLrLx</IRI>
+        <Literal>The_Adventures_Of_Sherlock_Holmes_(1939)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R90iiQEZh2cmXLvMEi9q2LR"/>
+        <IRI>#R8NNIPd8f5jcJiWKqpsLrLx</IRI>
+        <Literal>&quot;Sherlock Holmes, Dr. John Watson, Professor James Moriarty&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R9QYNDxhEirdMJGvWkwCZui"/>
+        <IRI>#R8NNIPd8f5jcJiWKqpsLrLx</IRI>
+        <Literal>&quot;Robert Bischoff&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBcQLTUVb1QWQ5x4Mdoe5Ud"/>
+        <IRI>#R8NNIPd8f5jcJiWKqpsLrLx</IRI>
+        <Literal>&quot;Alfred L. Werker&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCRmcf5Ho6A97XkYy1ESsvH"/>
+        <IRI>#R8NNIPd8f5jcJiWKqpsLrLx</IRI>
+        <Literal>&quot;Edwin Blum, William Drake, Arthur Conan Doyle&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCguayZgkczIXiJtyP50bVU"/>
+        <IRI>#R8NNIPd8f5jcJiWKqpsLrLx</IRI>
+        <Literal>&quot;Crime, Mystery, Thriller&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+        <IRI>#R8NNIPd8f5jcJiWKqpsLrLx</IRI>
+        <Literal>&quot;Basil Rathbone, Nigel Bruce, George Zucco&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCw8FmtDQsjdN5fpp7QHJMt"/>
+        <IRI>#R8NNIPd8f5jcJiWKqpsLrLx</IRI>
+        <Literal>&quot;Richard Hageman&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RtWBrjvyYhcmkx5wIbCo0r"/>
+        <IRI>#R8NNIPd8f5jcJiWKqpsLrLx</IRI>
+        <Literal>&quot;Twentieth Century Fox&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8P9Z9VPW6zlbprxJl5NZt</IRI>
+        <Literal>Curd Jurgens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8R9l5bKS7tuXR28IlpVTHR</IRI>
+        <Literal>Kevin Connor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8SjIHL9yLfJBAlyhzqHus6</IRI>
+        <Literal>David Burke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8UKX8ScRXuTnZSmm2rfLl2</IRI>
+        <Literal>James Herbert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8cf09lHkbK5USXupzZyRrs</IRI>
+        <Literal>Pussy Galore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8eMLxKaflvBVEKzx9Zpsgi</IRI>
+        <Literal>Anya Amasova</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8iIWHrgHEdyjdaahf4ZZt6</IRI>
+        <Literal>Adventure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8n7dMHpKOKEdDBF1EsQKXp</IRI>
+        <Literal>England</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8pJP8UIyAugNl2Iwk9lwhs</IRI>
+        <Literal>Genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8q6ALzaBib8swbfgv1FECA</IRI>
+        <Literal>Camille</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8r88bWpGTR0mNQBzMiJytO</IRI>
+        <Literal>Rank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8uH6dDHIszkOp1ult9sgcu</IRI>
+        <Literal>John Hawkesworth Series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R8zBlKAcQWC68DV7zBr1R3L</IRI>
+        <Literal>Dr. No</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R90RpkMmFsRvvoWsNznlGBI</IRI>
+        <Literal>Eva Green</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R90iiQEZh2cmXLvMEi9q2LR</IRI>
+        <Literal>hasCharacters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R91wRGfGjR4Yau25kzrNoCl</IRI>
+        <Literal>Editor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R97ERY8FryRIB1FnYcleHYT</IRI>
+        <Literal>Jude Law</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R98lPD2Sgh4vTY6F1buTgxm</IRI>
+        <Literal>Sherlock Holmes (2009)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R9QYNDxhEirdMJGvWkwCZui"/>
+        <IRI>#R98lPD2Sgh4vTY6F1buTgxm</IRI>
+        <Literal>&quot;James Herbert&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBbcgRAY1MRl5Pl6XeVFYPb"/>
+        <IRI>#R98lPD2Sgh4vTY6F1buTgxm</IRI>
+        <Literal>&quot;$525 million&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBcQLTUVb1QWQ5x4Mdoe5Ud"/>
+        <IRI>#R98lPD2Sgh4vTY6F1buTgxm</IRI>
+        <Literal>&quot;Guy Ritchie&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCRmcf5Ho6A97XkYy1ESsvH"/>
+        <IRI>#R98lPD2Sgh4vTY6F1buTgxm</IRI>
+        <Literal>&quot;Michele Mulroney&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCguayZgkczIXiJtyP50bVU"/>
+        <IRI>#R98lPD2Sgh4vTY6F1buTgxm</IRI>
+        <Literal>&quot;Action&quot;, &quot;Adventure&quot;, &quot;Mystery&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+        <IRI>#R98lPD2Sgh4vTY6F1buTgxm</IRI>
+        <Literal>&quot;Robert Downey Jr.&quot;, &quot;Jude Law&quot;, &quot;Geraldine James&quot;, &quot;Rachel McAdams&quot;, &quot;Eddie Marsan&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCw8FmtDQsjdN5fpp7QHJMt"/>
+        <IRI>#R98lPD2Sgh4vTY6F1buTgxm</IRI>
+        <Literal>&quot;Hans Zimmer&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RtWBrjvyYhcmkx5wIbCo0r"/>
+        <IRI>#R98lPD2Sgh4vTY6F1buTgxm</IRI>
+        <Literal>&quot;Warner Bros.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9BX4gCjDBjBo6TwqOgLwMC</IRI>
+        <Literal>James Bond</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9C3IVDUVogGo6Q8xwYFYmL</IRI>
+        <Literal>Karl Stromberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9FB0VtGNsjtsZfUdq1e7bI</IRI>
+        <Literal>John Barry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9IyFyH9NRklxyQdP3oxQaM</IRI>
+        <Literal>Academy Awards</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9MvsUItle0IcUHy2Wbh5ft</IRI>
+        <Literal>Richard Kiel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9OhVvCDGazGlSBtY8zdFL</IRI>
+        <Literal>Sam Mendes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9QYNDxhEirdMJGvWkwCZui</IRI>
+        <Literal>hasEditor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9Qyp3Hy95uUgZ9CLX4z8DG</IRI>
+        <Literal>Bill Condon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9VzHbKhFltgy6X1H213Bu4</IRI>
+        <Literal>Jeffrey Wright</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9ZF5U85EdJG5XbNbftCO25</IRI>
+        <Literal>Austria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9ekO7qMf734VFVFXSIe7XU</IRI>
+        <Literal>Matt Cheese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9mAXaE4gTdoYlehpPNj1Rl</IRI>
+        <Literal>Action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#R9oV2Q8PgqmIMtzvXYwyhJ</IRI>
+        <Literal>Film_Profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RB0iyFKlyV9OWc264JUUALP</IRI>
+        <Literal>Naomie Harris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RB6c0xNK1jodwN3A0z0c2dl</IRI>
+        <Literal>Roger Moore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RB80nQV8UxSNAzzL4zLQIR2</IRI>
+        <Literal>Thriller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RB9PyHpALE3PHz7bg5iPFnV</IRI>
+        <Literal>Robert Russell Bennett</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RB9mhb7F1EOR5z1HZ67U8m0</IRI>
+        <Literal>Chris Gill</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBDkGNsFGYJQLvFMQON4xPC</IRI>
+        <Literal>Daniel Craig</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBEAYy3WxC0ipXOkiMXI2Da</IRI>
+        <Literal>Mads Mikkelsen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBGTCJv1Vc723yuco5xUVVe</IRI>
+        <Literal>Grammy Awards</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBJR80GRmC6BukmYFoWLhtj</IRI>
+        <Literal>Robert Bischoff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBKOySvARBpkZFrWcArXJzF</IRI>
+        <Literal>Jeremy Brett</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBMBemeJsNcAwjBWuhTV3uR</IRI>
+        <Literal>Golden Globe Awards</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBQVLDTY3wDPOcd6yI2a4YT</IRI>
+        <Literal>Comedy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBRolI0YZL4OKM3ThiR79o5</IRI>
+        <Literal>Chile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBW8xYl9LeABVkf8gdjsx1</IRI>
+        <Literal>Judi Dench</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBXwSLX7XqvN8yV8yU8e1I0</IRI>
+        <Literal>Film_Series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBZ5OTXAqEDitLvCu4309xz</IRI>
+        <Literal>Trilogy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBbcgRAY1MRl5Pl6XeVFYPb</IRI>
+        <Literal>hasBoxOffice </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBbxDRcA8vqO8rqVagtHZeQ</IRI>
+        <Literal>Auric Goldfinger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBcEH5GgFZIGwOla8Lskv7X</IRI>
+        <Literal>The Adventrues Of Sherlock Holmes (1984)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R90iiQEZh2cmXLvMEi9q2LR"/>
+        <IRI>#RBcEH5GgFZIGwOla8Lskv7X</IRI>
+        <Literal>&quot;Sherlock Holmes, Dr. John Watson, Professor James Moriarty, Mrs. Hudson&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBcQLTUVb1QWQ5x4Mdoe5Ud"/>
+        <IRI>#RBcEH5GgFZIGwOla8Lskv7X</IRI>
+        <Literal>&quot;Alan Grint, Paul Annett&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCRmcf5Ho6A97XkYy1ESsvH"/>
+        <IRI>#RBcEH5GgFZIGwOla8Lskv7X</IRI>
+        <Literal>&quot;John Hawkesworth, Artur Conan Doyle&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+        <IRI>#RBcEH5GgFZIGwOla8Lskv7X</IRI>
+        <Literal>&quot;Jeremy Brett,	David Burke, Rosalie Williams, Eric Porter&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCw8FmtDQsjdN5fpp7QHJMt"/>
+        <IRI>#RBcEH5GgFZIGwOla8Lskv7X</IRI>
+        <Literal>&quot;Patrick Gowers&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RtWBrjvyYhcmkx5wIbCo0r"/>
+        <IRI>#RBcEH5GgFZIGwOla8Lskv7X</IRI>
+        <Literal>&quot;Granada Television&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBcMFbZblyEMuESHg2sgLm7</IRI>
+        <Literal>Rachel McAdams</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBcQLTUVb1QWQ5x4Mdoe5Ud</IRI>
+        <Literal>hasDirector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBhLxUvmUOTvTIhIoysnHxd</IRI>
+        <Literal>Czech Republic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBjU6mZxEzjvwECezOTaVtw</IRI>
+        <Literal>Geraldine James</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBluvckuSxmg8tMrKX3iMjz</IRI>
+        <Literal>Barbara Bach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBnEWuVdKYV7iaAmybwJzWe</IRI>
+        <Literal>Natalya Simonova</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBpadoYmxPdQBESdX1N9OWZ</IRI>
+        <Literal>Alfred L. Werker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBxH4dX1zvDwFfODhTNq23t</IRI>
+        <Literal>Neal Purvis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBzWHvpX0TR2wfscKHO21zR</IRI>
+        <Literal>Twentieth Century Fox</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RC045fue991DK1Mvozcmqne</IRI>
+        <Literal>Richard Pearson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RC4FmjdY46xsLy2ssvEHZBK</IRI>
+        <Literal>Vesper Lynd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RC6Z8M0S6YeDqOsbW5sSpuE</IRI>
+        <Literal>Eve Moneypenny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCBsC8Gx99qg89IXLr0mlXe</IRI>
+        <Literal>Guy Hamilton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCF8x4SnaZ1p8S99cfFxAj9</IRI>
+        <Literal>Bernard Lee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCLVpaM9TfeAsAd6OQfagO2</IRI>
+        <Literal>Eric Porter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCNW77d7Lwe0Dqb7ScwffJq</IRI>
+        <Literal>Skyfall (2012)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R90iiQEZh2cmXLvMEi9q2LR"/>
+        <IRI>#RCNW77d7Lwe0Dqb7ScwffJq</IRI>
+        <Literal>&quot;James Bond, M, Raoul Silva, Eve Moneypenny, Q&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R9QYNDxhEirdMJGvWkwCZui"/>
+        <IRI>#RCNW77d7Lwe0Dqb7ScwffJq</IRI>
+        <Literal>&quot;Stuart Baird&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBcQLTUVb1QWQ5x4Mdoe5Ud"/>
+        <IRI>#RCNW77d7Lwe0Dqb7ScwffJq</IRI>
+        <Literal>&quot;Sam Mendes&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCguayZgkczIXiJtyP50bVU"/>
+        <IRI>#RCNW77d7Lwe0Dqb7ScwffJq</IRI>
+        <Literal>&quot;Action, Thriller&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+        <IRI>#RCNW77d7Lwe0Dqb7ScwffJq</IRI>
+        <Literal>&quot;Daniel Craig, Judi Dench, Javier Bardem, Naomie Harris, Ben Whishaw&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCw8FmtDQsjdN5fpp7QHJMt"/>
+        <IRI>#RCNW77d7Lwe0Dqb7ScwffJq</IRI>
+        <Literal>&quot;Thomas Newman&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCOSwEfU8EsKESVa0MbNhFH</IRI>
+        <Literal>Eon Productions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCRmcf5Ho6A97XkYy1ESsvH</IRI>
+        <Literal>hasWriter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCRvJv8p5OcDJ75TF6p6ntR</IRI>
+        <Literal>Alan Grint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCbb346fkUkqUR6bgnsnUNH</IRI>
+        <Literal>Le Chiffre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCfYdVYe1lCbZXFHJND6VxU</IRI>
+        <Literal>Turkey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCguayZgkczIXiJtyP50bVU</IRI>
+        <Literal>hasGenres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RChfzLdkUZ60USxZYfXpswQ</IRI>
+        <Literal>hasActors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCjnh5lLYGIvoE2vtojCEXm</IRI>
+        <Literal>Granada Televesion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RClkXIwaC50n6Ol5qSvm4xV</IRI>
+        <Literal>Bahamas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCnX8KYFJttyY3YawcFFGII</IRI>
+        <Literal>United Kingdom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCqesXXXzxXsk0PFg9bI0d7</IRI>
+        <Literal>Marvin Hamlisch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCtHGdMHn1ZploYVryMlBVk</IRI>
+        <Literal>Production_Info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCtIVgGvgHtazBzarwjShFh</IRI>
+        <Literal>Director</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCuPC32Pxvd4LpXXm2YA23g</IRI>
+        <Literal>FIlm_Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCuqcyKeIJeXQVtRQs5fHt8</IRI>
+        <Literal>Olga Kurylenko</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCw8FmtDQsjdN5fpp7QHJMt</IRI>
+        <Literal>hasComposer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCwuwVeM5KEGvUYnY4zekSJ</IRI>
+        <Literal>Drama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCxfTdl7YWjfugjZrha4NdV</IRI>
+        <Literal>Basil Rathbone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RCzmjFtbcH7jNwNGvHAsupJ</IRI>
+        <Literal>Jaws</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDAg5bjxI3kO7BcFmABrz37</IRI>
+        <Literal>Irene Adler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDEL3nrVMmuHScep21pgSoh</IRI>
+        <Literal>Panama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDElMRkRqQZsnVzeWHvZT7Z</IRI>
+        <Literal>Casino Royale (2006)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R90iiQEZh2cmXLvMEi9q2LR"/>
+        <IRI>#RDElMRkRqQZsnVzeWHvZT7Z</IRI>
+        <Literal>&quot;James Bond, Vesper Lynd, Le Chiffre, M, Felix Leiter&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R9QYNDxhEirdMJGvWkwCZui"/>
+        <IRI>#RDElMRkRqQZsnVzeWHvZT7Z</IRI>
+        <Literal>&quot;Stuart Baird&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBbcgRAY1MRl5Pl6XeVFYPb"/>
+        <IRI>#RDElMRkRqQZsnVzeWHvZT7Z</IRI>
+        <Literal>&quot;$616 million&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBcQLTUVb1QWQ5x4Mdoe5Ud"/>
+        <IRI>#RDElMRkRqQZsnVzeWHvZT7Z</IRI>
+        <Literal>&quot;Martin Campbell&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCguayZgkczIXiJtyP50bVU"/>
+        <IRI>#RDElMRkRqQZsnVzeWHvZT7Z</IRI>
+        <Literal>&quot;Action, Thriller&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+        <IRI>#RDElMRkRqQZsnVzeWHvZT7Z</IRI>
+        <Literal>&quot; Daniel Craig, Eva Green, Mads Mikkelsen, Judi Dench, Jeffrey Wright&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCw8FmtDQsjdN5fpp7QHJMt"/>
+        <IRI>#RDElMRkRqQZsnVzeWHvZT7Z</IRI>
+        <Literal>&quot;David Arnold&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RtWBrjvyYhcmkx5wIbCo0r"/>
+        <IRI>#RDElMRkRqQZsnVzeWHvZT7Z</IRI>
+        <Literal>&quot;Eon Productions&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDKTmHQBzTlGduLkTRr2uo3</IRI>
+        <Literal>Felix Leiter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDMrEJzvCNiPU5Ng9eV9MqQ</IRI>
+        <Literal>William Drake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDQLomDJJqDDHo5y5Tvi3H6</IRI>
+        <Literal>Box_Office</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDT43hqGMlSr3F2wboEBBBm</IRI>
+        <Literal>Stuart Baird</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDXHFseLnF0Y78YsvPjnfPe</IRI>
+        <Literal>Awards</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDYhT6IW1WfVsvnWdS9sTS5</IRI>
+        <Literal>Thomas Newman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDgTEeu3dwrFxBT4bOYaTx3</IRI>
+        <Literal>Monty Norman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDhKBMwOvcgpkVJ0YztnlWI</IRI>
+        <Literal>Metro-Goldwyn-Mayer (MGM)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDmnS0MJRFqlcoCR17G2X0V</IRI>
+        <Literal>Quantum Of Solace (2008)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+        <IRI>#RDmnS0MJRFqlcoCR17G2X0V</IRI>
+        <Literal>&quot;Daniel Craig, Judi Dench, Mathieu Amalric, Olga Kurylenko&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDpr4zjPE5JA0TNzkv0kbln</IRI>
+        <Literal>John Hawkesworth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDrRqUkOzVXfw3CY1exe497</IRI>
+        <Literal>Robert L. Simpson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RDt5ybrt7tomwqP7zG97CVm</IRI>
+        <Literal>Switzerland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RI0x9zCySWYvCftqY6cyW5</IRI>
+        <Literal>Peter Hunt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RJreBqPMNjMIDXbkEgIbkw</IRI>
+        <Literal>Paul Haggis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RKT5LPG9iM8IkrD1CXUW4T</IRI>
+        <Literal>Professor James Moriarty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RLg05DubD5DBt6VD1zZTZ9</IRI>
+        <Literal>Crime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RQ503siedcFC8k2TjDyrWl</IRI>
+        <Literal>Terry Rawlings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RR1epwnd6pykVWULK5RICQ</IRI>
+        <Literal>Nigel Bruce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RRRBmuz7oir3o3KjJMl9f1</IRI>
+        <Literal>M</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RRyls1A1DazQkE389oqy6u</IRI>
+        <Literal>Italy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSe5CMeiOrNH9Le2VnZlFO</IRI>
+        <Literal>Rosalie Williams</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSgbcRM9k5eh3T1drM99pr</IRI>
+        <Literal>Sherlock Holmes: A Game Of Shadows (2011)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#R9QYNDxhEirdMJGvWkwCZui"/>
+        <IRI>#RSgbcRM9k5eh3T1drM99pr</IRI>
+        <Literal>&quot;James Hebert&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBbcgRAY1MRl5Pl6XeVFYPb"/>
+        <IRI>#RSgbcRM9k5eh3T1drM99pr</IRI>
+        <Literal>&quot;$543 million &quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RBcQLTUVb1QWQ5x4Mdoe5Ud"/>
+        <IRI>#RSgbcRM9k5eh3T1drM99pr</IRI>
+        <Literal>&quot;Guy Ritche&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCRmcf5Ho6A97XkYy1ESsvH"/>
+        <IRI>#RSgbcRM9k5eh3T1drM99pr</IRI>
+        <Literal>&quot;Michele Mulroney&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCguayZgkczIXiJtyP50bVU"/>
+        <IRI>#RSgbcRM9k5eh3T1drM99pr</IRI>
+        <Literal>&quot;Action&quot;, &quot;Adventure&quot;, &quot;Mystery&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+        <IRI>#RSgbcRM9k5eh3T1drM99pr</IRI>
+        <Literal>&quot;&quot;Robert Downey Jr.&quot;, &quot;Jude Law&quot;, &quot;Jared Harris &quot;&quot;Geraldine James&quot;, &quot;Rachel McAdams&quot;, &quot;Eddie Marsan&quot;&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RCw8FmtDQsjdN5fpp7QHJMt"/>
+        <IRI>#RSgbcRM9k5eh3T1drM99pr</IRI>
+        <Literal>&quot;Hans Zimmer&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#RtWBrjvyYhcmkx5wIbCo0r"/>
+        <IRI>#RSgbcRM9k5eh3T1drM99pr</IRI>
+        <Literal>&quot;Warner Bros.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RVJr9WeXvfl2LSiTATaocz</IRI>
+        <Literal>Bafta FIlm Awards</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RVVJ2u2vT8NNiDhG9CvnwE</IRI>
+        <Literal>Q</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RW4hLUJSBaSA5JgoBtZv9W</IRI>
+        <Literal>Edwin Blum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RX13ZBbS8BJECB9pe83YtL</IRI>
+        <Literal>Michele Mulroney</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RXPln11qqml2pglfMGIje4</IRI>
+        <Literal>Character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RYoVWWw1ogNUXV7WtIwjN</IRI>
+        <Literal>John Glen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RZtgrmmCPAiv04YeR1KwvR</IRI>
+        <Literal>Inspector Lestrade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ra1kkRHfBqAXWVoRJ3NHqV</IRI>
+        <Literal>Mark Gatiss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ra56ajaeuWmc2BK8uBNvqP</IRI>
+        <Literal>Hans Zimmer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RhY1ijwtyNlWcL9PzHTerK</IRI>
+        <Literal>Ben Whishaw</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RjZYEIpAw5aRJmGsmz3o09</IRI>
+        <Literal>Mystery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RkYtvSiHC3yRW35otRigFR</IRI>
+        <Literal>Martin Campbell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RmTtcMoxmTArumftniUDy5</IRI>
+        <Literal>hasFilmSeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RmuBAdeJyI08cWm0gL0U5Z</IRI>
+        <Literal>Honey Ryder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rqage33ZqL1wdaIN7C6Rkj</IRI>
+        <Literal>Egypt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RqcFUNJ0OFfe2EVtItVi9q</IRI>
+        <Literal>Raoul Silva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rt9OjFqOrq9WbVWjxAeQrX</IRI>
+        <Literal>Writer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RtWBrjvyYhcmkx5wIbCo0r</IRI>
+        <Literal>hasProductionCompany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RurEGHHZzQ7nmsPbQkUs8l</IRI>
+        <Literal>Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rv38MpUfDyH4o39LoHGghF</IRI>
+        <Literal>&quot;Sherlock Holmes Series&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RyJiq91VbQnZ52937kUyVq</IRI>
+        <Literal>Mathieu Amalric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RzNvg92nqazazv6pKLTryp</IRI>
+        <Literal>Scotland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Film</IRI>
+        <Literal>Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Film</IRI>
+        <Literal xml:lang="en">Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasActor</IRI>
+        <Literal>hasActor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasAwards</IRI>
+        <Literal>hasAwards</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasBoxOffice</IRI>
+        <Literal>hasBoxOffice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasCharacter</IRI>
+        <Literal>hasCharacter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasComposer</IRI>
+        <Literal>hasComposer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasDirector</IRI>
+        <Literal>hasDirector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasEditor</IRI>
+        <Literal>hasEditor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasFilmSeries</IRI>
+        <Literal>hasFilmSeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasFilmingLocation</IRI>
+        <Literal>hasFilmingLocation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasGenre</IRI>
+        <Literal>hasGenre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasPart</IRI>
+        <Literal>hasPart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasProductionCompany</IRI>
+        <Literal>hasProductionCompany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasRank</IRI>
+        <Literal>hasRank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasReleaseDate</IRI>
+        <Literal>hasReleaseDateUsa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasWriter</IRI>
+        <Literal>hasWriter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/isPartOfTrilogy</IRI>
+        <Literal>isPartOfTrilogy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/playedBy</IRI>
+        <Literal>playedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/wasBornIn</IRI>
+        <Literal>wasBornIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/wonAward</IRI>
+        <Literal>wonAward</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30</IRI>
+        <Literal>Cast&amp;Crew</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Film/Cast&amp;#OWLClassImpl_6f4103bc_9ac6_43b9_a480_15e7aae45c30</IRI>
+        <Literal xml:lang="en">Cast&amp;Crew</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c</IRI>
+        <Literal>Actor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Film/Cast&amp;Crew/OWLClassImpl_606709ed_6a0d_4a59_8061_5b04f264058c</IRI>
+        <Literal xml:lang="en">Actor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7</IRI>
+        <Literal>Composer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Film/Cast&amp;Crew/OWLClassImpl_65c90217_9c64_4f80_b627_014832d520a7</IRI>
+        <Literal xml:lang="en">Composer</Literal>
+    </AnnotationAssertion>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="#R90iiQEZh2cmXLvMEi9q2LR"/>
+        <IRI>http://webprotege.stanford.edu/RBAL2MfmCqrV4UUezchFEJC</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="#R90iiQEZh2cmXLvMEi9q2LR"/>
+        <IRI>http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="#RBbcgRAY1MRl5Pl6XeVFYPb"/>
+        <IRI>http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="#RBcQLTUVb1QWQ5x4Mdoe5Ud"/>
+        <IRI>http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="#RChfzLdkUZ60USxZYfXpswQ"/>
+        <IRI>http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="#RCw8FmtDQsjdN5fpp7QHJMt"/>
+        <IRI>http://webprotege.stanford.edu/RBYSz5cluSQvUDi1aiaPCbl</IRI>
+    </AnnotationPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
