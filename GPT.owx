@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.example.org/cinema#"
+     xml:base="http://www.example.org/cinema"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+    <owl:Ontology rdf:about="http://www.example.org/cinema">
+        <rdfs:comment>Ontology for a cinema chain, including films, actors, directors, and related properties.</rdfs:comment>
+        <rdfs:label>Cinema Chain Ontology</rdfs:label>
+    </owl:Ontology>
+    
+    <!-- Classes -->
+    <owl:Class rdf:about="#Film"/>
+    <owl:Class rdf:about="#Director"/>
+    <owl:Class rdf:about="#Actor"/>
+    <owl:Class rdf:about="#Writer"/>
+    <owl:Class rdf:about="#Editor"/>
+    <owl:Class rdf:about="#Composer"/>
+    <owl:Class rdf:about="#Character"/>
+    <owl:Class rdf:about="#ProductionCompany"/>
+    <owl:Class rdf:about="#FilmingLocation"/>
+    <owl:Class rdf:about="#Genre"/>
+    <owl:Class rdf:about="#FilmSeries"/>
+    <owl:Class rdf:about="#Award"/>
+    
+    <!-- Properties -->
+    <owl:ObjectProperty rdf:about="#directedBy">
+        <rdfs:domain rdf:resource="#Film"/>
+        <rdfs:range rdf:resource="#Director"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#hasActor">
+        <rdfs:domain rdf:resource="#Film"/>
+        <rdfs:range rdf:resource="#Actor"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#hasGenre">
+        <rdfs:domain rdf:resource="#Film"/>
+        <rdfs:range rdf:resource="#Genre"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#filmedAt">
+        <rdfs:domain rdf:resource="#Film"/>
+        <rdfs:range rdf:resource="#FilmingLocation"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#wonAward">
+        <rdfs:domain rdf:resource="#Actor"/>
+        <rdfs:range rdf:resource="#Award"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#playedCharacter">
+        <rdfs:domain rdf:resource="#Actor"/>
+        <rdfs:range rdf:resource="#Character"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#releaseDateUSA">
+        <rdfs:domain rdf:resource="#Film"/>
+        <rdfs:range rdf:resource="#xsd:date"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#isBornIn">
+        <rdfs:domain rdf:resource="#Actor"/>
+        <rdfs:range rdf:resource="#xsd:string"/>
+    </owl:ObjectProperty>
+    
+    <!-- Defined Class: Trilogy -->
+    <owl:Class rdf:about="#Trilogy">
+        <rdfs:subClassOf rdf:resource="#FilmSeries"/>
+    </owl:Class>
+    
+    <!-- Example Instance Data -->
+    <Film rdf:about="#Inception">
+        <directedBy rdf:resource="#ChristopherNolan"/>
+        <hasGenre rdf:resource="#ScienceFiction"/>
+        <releaseDateUSA rdf:datatype="xsd:date">2010-07-16</releaseDateUSA>
+    </Film>
+    
+    <Director rdf:about="#ChristopherNolan">
+        <rdfs:label>Christopher Nolan</rdfs:label>
+    </Director>
+    
+    <Actor rdf:about="#BenedictCumberbatch">
+        <rdfs:label>Benedict Cumberbatch</rdfs:label>
+        <isBornIn>UK</isBornIn>
+        <playedCharacter rdf:resource="#SherlockHolmes"/>
+        <wonAward rdf:resource="#BAFTA"/>
+    </Actor>
+    
+    <Character rdf:about="#SherlockHolmes">
+        <rdfs:label>Sherlock Holmes</rdfs:label>
+    </Character>
+    
+    <Award rdf:about="#BAFTA">
+        <rdfs:label>BAFTA Award</rdfs:label>
+    </Award>
+    
+    <FilmingLocation rdf:about="#London">
+        <rdfs:label>London</rdfs:label>
+    </FilmingLocation>
+    
+    <Film rdf:about="#Skyfall">
+        <directedBy rdf:resource="#SamMendes"/>
+        <hasActor rdf:resource="#DanielCraig"/>
+        <releaseDateUSA rdf:datatype="xsd:date">2012-11-09</releaseDateUSA>
+        <filmedAt rdf:resource="#London"/>
+    </Film>
+    
+    <Actor rdf:about="#DanielCraig">
+        <rdfs:label>Daniel Craig</rdfs:label>
+        <isBornIn>UK</isBornIn>
+        <playedCharacter rdf:resource="#JamesBond"/>
+    </Actor>
+    
+    <Character rdf:about="#JamesBond">
+        <rdfs:label>James Bond</rdfs:label>
+    </Character>
+    
+    <Genre rdf:about="#Action">
+        <rdfs:label>Action</rdfs:label>
+    </Genre>
+</rdf:RDF>
