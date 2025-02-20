@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.example.org/cinema#"
+     xml:base="http://www.example.org/cinema"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+    <owl:Ontology rdf:about="http://www.example.org/cinema">
+        <rdfs:comment>Ontology for a cinema chain, including films, actors, directors, and related properties.</rdfs:comment>
+        <rdfs:label>Cinema Chain Ontology</rdfs:label>
+    </owl:Ontology>
+    
+    <!-- Classes -->
+    <owl:Class rdf:about="#Film"/>
+    <owl:Class rdf:about="#FeatureFilm">
+        <rdfs:subClassOf rdf:resource="#Film"/>
+    </owl:Class>
+    <owl:Class rdf:about="#ShortFilm">
+        <rdfs:subClassOf rdf:resource="#Film"/>
+    </owl:Class>
+    <owl:Class rdf:about="#AnimatedFilm">
+        <rdfs:subClassOf rdf:resource="#FeatureFilm"/>
+    </owl:Class>
+    <owl:Class rdf:about="#LiveActionFilm">
+        <rdfs:subClassOf rdf:resource="#FeatureFilm"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="#Director"/>
+    <owl:Class rdf:about="#Actor"/>
+    <owl:Class rdf:about="#Writer"/>
+    <owl:Class rdf:about="#Screenwriter">
+        <rdfs:subClassOf rdf:resource="#Writer"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Playwright">
+        <rdfs:subClassOf rdf:resource="#Writer"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="#Editor"/>
+    <owl:Class rdf:about="#Composer"/>
+    <owl:Class rdf:about="#Character"/>
+    <owl:Class rdf:about="#Protagonist">
+        <rdfs:subClassOf rdf:resource="#Character"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Antagonist">
+        <rdfs:subClassOf rdf:resource="#Character"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="#ProductionCompany"/>
+    <owl:Class rdf:about="#FilmingLocation"/>
+    <owl:Class rdf:about="#UrbanLocation">
+        <rdfs:subClassOf rdf:resource="#FilmingLocation"/>
+    </owl:Class>
+    <owl:Class rdf:about="#RuralLocation">
+        <rdfs:subClassOf rdf:resource="#FilmingLocation"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="#Genre"/>
+    <owl:Class rdf:about="#ActionGenre">
+        <rdfs:subClassOf rdf:resource="#Genre"/>
+    </owl:Class>
+    <owl:Class rdf:about="#ComedyGenre">
+        <rdfs:subClassOf rdf:resource="#Genre"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="#FilmSeries"/>
+    <owl:Class rdf:about="#Trilogy">
+        <rdfs:subClassOf rdf:resource="#FilmSeries"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="#Award"/>
+    <owl:Class rdf:about="#AcademyAward">
+        <rdfs:subClassOf rdf:resource="#Award"/>
+    </owl:Class>
+    <owl:Class rdf:about="#BAFTA">
+        <rdfs:subClassOf rdf:resource="#Award"/>
+    </owl:Class>
+    
+</rdf:RDF>
